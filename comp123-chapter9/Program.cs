@@ -10,6 +10,8 @@ namespace comp123_chapter9
     {
         static void Main(string[] args)
         {
+            HockeyPlayer p = new HockeyPlayer("Tom", 34, 200);
+            Console.WriteLine(p);
         }
     }
 }
