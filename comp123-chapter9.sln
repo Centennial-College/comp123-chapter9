@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SalesTransactionDemo", "Sal
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TilingDemo", "TilingDemo\TilingDemo.csproj", "{D1779425-3BA4-4184-9BF1-4BCE82908B99}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CarDemo", "CarDemo\CarDemo.csproj", "{79B9EBF1-76A1-4B30-AF21-0F811C3612BC}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{D1779425-3BA4-4184-9BF1-4BCE82908B99}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D1779425-3BA4-4184-9BF1-4BCE82908B99}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D1779425-3BA4-4184-9BF1-4BCE82908B99}.Release|Any CPU.Build.0 = Release|Any CPU
+		{79B9EBF1-76A1-4B30-AF21-0F811C3612BC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{79B9EBF1-76A1-4B30-AF21-0F811C3612BC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{79B9EBF1-76A1-4B30-AF21-0F811C3612BC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{79B9EBF1-76A1-4B30-AF21-0F811C3612BC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
