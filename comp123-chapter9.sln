@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TilingDemo", "TilingDemo\Ti
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CarDemo", "CarDemo\CarDemo.csproj", "{79B9EBF1-76A1-4B30-AF21-0F811C3612BC}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TaxPayerDemo", "TaxPayerDemo\TaxPayerDemo.csproj", "{D4E6E9E3-E0FB-4BE2-8C33-FCC87463D4B2}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +41,10 @@ Global
 		{79B9EBF1-76A1-4B30-AF21-0F811C3612BC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{79B9EBF1-76A1-4B30-AF21-0F811C3612BC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{79B9EBF1-76A1-4B30-AF21-0F811C3612BC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D4E6E9E3-E0FB-4BE2-8C33-FCC87463D4B2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D4E6E9E3-E0FB-4BE2-8C33-FCC87463D4B2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D4E6E9E3-E0FB-4BE2-8C33-FCC87463D4B2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D4E6E9E3-E0FB-4BE2-8C33-FCC87463D4B2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
