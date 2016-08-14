@@ -71,14 +71,14 @@ namespace DemoJobs
             return new Job(
                 j1.Description + " and " + j2.Description,
                 j1.Hours + j2.Hours,
-                ((j1.HourlyRate + j2.HourlyRate) / 2)
+                ((j1.HourlyRate * (j1.Hours / (j1.Hours + j2.Hours)) + j2.HourlyRate * (j2.Hours / (j1.Hours + j2.Hours))))
                 );
         }
 
         public override string ToString()
         {
-            return string.Format("Job Description: {0}\nHours Required: {1}\nHourly Rate: {2:C}",
-                this.Description, this.Hours, this.HourlyRate);
+            return string.Format("Job Description: {0}\nHours Required: {1}\nHourly Rate: {2:C}\nTotal Pay: {3:C}",
+                this.Description, this.Hours, this.HourlyRate, this.TotalFee);
         }
     }
 }

@@ -10,8 +10,8 @@ namespace DemoJobs
     {
         static void Main(string[] args)
         {
-            Job j1 = new Job("wash windows", 3.5, 25);
-            Job j2 = new Job("peer tutor", 10, 12);
+            Job j1 = new Job("walking dog", 1, 10);
+            Job j2 = new Job("painting a house", 10, 100);
             Job j3 = new Job("college faculty", 15, 50);
 
             Console.WriteLine(j1);
