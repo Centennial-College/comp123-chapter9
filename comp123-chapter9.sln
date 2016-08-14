@@ -17,6 +17,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TaxPayerDemo", "TaxPayerDem
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TaxpayerDemo2", "TaxpayerDemo2\TaxpayerDemo2.csproj", "{463B1366-FBF9-480B-8F8E-B329D747F783}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ShirtDemo", "ShirtDemo\ShirtDemo.csproj", "{6A4AB395-A21D-4011-97FC-F3A0EC24335A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -51,6 +53,10 @@ Global
 		{463B1366-FBF9-480B-8F8E-B329D747F783}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{463B1366-FBF9-480B-8F8E-B329D747F783}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{463B1366-FBF9-480B-8F8E-B329D747F783}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6A4AB395-A21D-4011-97FC-F3A0EC24335A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6A4AB395-A21D-4011-97FC-F3A0EC24335A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6A4AB395-A21D-4011-97FC-F3A0EC24335A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6A4AB395-A21D-4011-97FC-F3A0EC24335A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
