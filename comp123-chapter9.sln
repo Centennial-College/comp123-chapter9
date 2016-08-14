@@ -23,6 +23,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConferencesDemo", "Conferen
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RelativesList", "RelativesList\RelativesList.csproj", "{751E77DC-6C4E-41B0-874F-137C07966979}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DemoJobs", "DemoJobs\DemoJobs.csproj", "{C4AAC292-7CA7-444C-A05D-D198AA38E305}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -69,6 +71,10 @@ Global
 		{751E77DC-6C4E-41B0-874F-137C07966979}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{751E77DC-6C4E-41B0-874F-137C07966979}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{751E77DC-6C4E-41B0-874F-137C07966979}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C4AAC292-7CA7-444C-A05D-D198AA38E305}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C4AAC292-7CA7-444C-A05D-D198AA38E305}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C4AAC292-7CA7-444C-A05D-D198AA38E305}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C4AAC292-7CA7-444C-A05D-D198AA38E305}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
