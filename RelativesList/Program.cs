@@ -33,12 +33,36 @@ namespace RelativesList
 
             Array.Sort(relatives);
 
+            Console.WriteLine("RELATIVES SORTED IN ALPHABETICAL ORDER BY NAME ++++++++++++++++++++++++++");
+
             foreach (Relative r in relatives)
             {
                 Console.WriteLine(r);
                 Console.WriteLine();
             }
 
+            Console.WriteLine("SEARCHING FROM THE RELATIVES LIST ++++++++++++++++++++++++++");
+            Console.Write("Please enter a relative's name: ");
+            string searchName = Console.ReadLine();
+            DisplayRelativeDetails(searchName, relatives);
+
+        }
+
+        public static void DisplayRelativeDetails(string name, Relative[] relatives)
+        {
+            foreach (Relative relative in relatives)
+            {
+                if (relative.Name == name)
+                {
+                    Console.WriteLine("Relationship: " + relative.Relationship);
+                    Console.WriteLine("Birthdate: " + relative.DisplayBirthday());
+                    return;
+                }
+            }
+
+            // reached here means did not find matching relative
+            Console.WriteLine("There are no relatives in the list which have a name of: " + name);
+            return;
         }
 
         public static int GenerateRandomNumber(int min, int max)
