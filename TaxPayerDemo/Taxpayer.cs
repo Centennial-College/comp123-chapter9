@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace TaxPayerDemo
 {
-    class Taxpayer
+    public class Taxpayer : IComparable
     {
         private double _yearlyGrossIncome;
         private double _incomeTaxOwed;
@@ -51,5 +51,22 @@ namespace TaxPayerDemo
                 this.SocialSecurityNumber, this.YearlyGrossIncome, this.IncomeTaxOwed);
         }
 
+        /**
+         * <summary>
+         * This method allows Taxpayers to be compared to each other based on tax owed
+         * </summary>
+         */
+        public int CompareTo(object obj)
+        {
+            // Cast obj to Taxpayer first
+            Taxpayer other = (Taxpayer)obj;
+
+            if (this.IncomeTaxOwed > other.IncomeTaxOwed)
+                return 1;
+            else if (this.IncomeTaxOwed == other.IncomeTaxOwed)
+                return 0;
+            else
+                return -1;
+        }
     }
 }
