@@ -149,11 +149,35 @@ namespace FractionDemo
             return result;
         }
 
-        //public static Fraction operator*(Fraction f1, Fraction f2)
-        //{
-        //    Fraction result;
-        //    return result;
-        //}
+        public static Fraction operator *(Fraction f1, Fraction f2)
+        {
+            Fraction firstFrac = new Fraction(f1.WholeNumber, f1.Numerator, f1.Denominator);
+            Fraction secondFrac = new Fraction(f2.WholeNumber, f2.Numerator, f2.Denominator);
+            Fraction result;
+            int newNum;
+            int newDen;
+
+            // eliminate any whole number part of the value
+            if (firstFrac.WholeNumber != 0)
+            {
+                firstFrac.Numerator += firstFrac.WholeNumber * firstFrac.Denominator;
+                firstFrac.WholeNumber = 0;
+            }
+            if (secondFrac.WholeNumber != 0)
+            {
+                secondFrac.Numerator += secondFrac.WholeNumber * secondFrac.Denominator;
+                secondFrac.WholeNumber = 0;
+            }
+
+            newNum = firstFrac.Numerator * secondFrac.Numerator;
+            newDen = firstFrac.Denominator * secondFrac.Denominator;
+
+            result = new Fraction(newNum, newDen);
+
+            result.Reduce();
+
+            return result;
+        }
 
         public override string ToString()
         {
